@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="preferencias">
+    <CheckBoxPreference android:key="ayuda"
+        android:title="Activa ayuda"
+        android:summaryOn="Ayuda de pantalla activada"
+        android:summaryOff="Ayuda de pantalla desactivada"
+        android:defaultValue="true"
+        />
+    <Preference 
+        android:key="primera_ejecucion"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>

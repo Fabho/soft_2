@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proyecto.petdroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="App voluntario S.O.S"
+        android:theme="@style/Theme.Vetdroidstyle" >
+        <activity
+            android:name="com.proyecto.petdroid.MainActivity"
+            android:label="App voluntario S.O.S" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.Mascotas"
+            android:label="@string/title_activity_mascotas" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.Propietarios"
+            android:label="Vontario encargado" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.FichaMascota"
+            android:label="@string/title_activity_ficha_mascota" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.FichaPropietario"
+            android:label="@string/title_activity_ficha_propietario" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.Consultas"
+            android:label="@string/title_activity_consultas" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.FichaConsulta"
+            android:label="@string/title_activity_ficha_consulta" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.NuevaMascota"
+            android:label="@string/title_activity_nueva_mascota" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.NuevoPropietario"
+            android:label="Nuevo voluntario" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.EditarMascota"
+            android:label="@string/title_activity_editar_mascota" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.EditarPropietario"
+            android:label="Editar voluntario" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.NuevaConsulta"
+            android:label="@string/title_activity_nueva_consulta" >
+        </activity>
+        <activity
+            android:name="com.proyecto.petdroid.EditarConsulta"
+            android:label="@string/title_activity_editar_consulta" >
+        </activity>
+    </application>
+
+</manifest>

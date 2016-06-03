@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutNuevaMascota"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@drawable/selector_sombra_lista"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/imgListaMascota"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_perro" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgListaMascota"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtNombreMascota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textStyle="bold"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/txtNombrePropMascota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="12sp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgBorrarListaMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/selector_borrar" />
+
+    <ImageView
+        android:id="@+id/imgEditarListaMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:layout_toLeftOf="@+id/imgBorrarListaMascota"
+        android:src="@drawable/selector_editar" />
+
+</RelativeLayout>

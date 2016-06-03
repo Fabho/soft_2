@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutPropietario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo">
+
+    <TextView
+        android:id="@+id/txtSubtituloPropietarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administracion de hogares temporales"
+        android:textColor="@color/tono_verde"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/txtAyuda2Propietario"
+        android:layout_alignBottom="@+id/txtAyuda2Propietario"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtAyuda1Propietarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubtituloPropietarios"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/pulsar_comenzar"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAyuda2Propietario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pie_principal_propietarios"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp" />
+
+    <ImageView
+        android:id="@+id/imgMascotaFichaProp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_propietarios"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/txtSubtituloPropietarios"
+        android:layout_toStartOf="@+id/txtSubtituloPropietarios" />
+
+    <TextView
+        android:id="@+id/txtAyuda3Propietarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/txtAyuda3"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible" />
+
+</RelativeLayout>

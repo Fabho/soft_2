@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo">
+
+    <TextView
+        android:id="@+id/txtSubtituloMascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_mascotas"
+        android:textColor="@color/tono_verde"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgMascotaFichaProp"
+        android:layout_alignRight="@+id/txtAyuda2Mascotas"
+        android:layout_alignEnd="@+id/txtAyuda2Mascotas"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:id="@+id/txtAyuda1Mascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubtituloMascotas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:enabled="false"
+        android:text="@string/pulsar_comenzar"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAyuda2Mascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pie_principal_mascotas"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgMascotaFichaProp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/txtSubtituloMascotas"
+        android:src="@drawable/ic_action_collections_labels" />
+    
+    <TextView
+        android:id="@+id/txtAyuda3MAscotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/txtAyuda3"
+        android:textColor="@color/tono_verde"
+        android:visibility="invisible" />
+
+</RelativeLayout>

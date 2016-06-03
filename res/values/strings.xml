@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PetDroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Mascotas</string>
+    <string name="title_section2">Voluntarios</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnBuscarMascotas">Buscar Mascota...</string>
+    <string name="btnBuscarPropietarios">Buscar Voluntario...</string>
+    <string name="title_activity_mascotas">Mascotas</string>
+    <string name="title_activity_propietarios">Voluntarios</string>
+    <string name="txtTituloMascotas">Mascotas:</string>
+    <string name="title_activity_ficha_mascota">Ficha Mascota</string>
+    <string name="btnVerConsultas">Acciones...</string>
+    <string name="title_activity_ficha_propietario">Ficha Voluntario</string>
+    <string name="txtTelefonoFichaProp">Teléfono:</string>
+    <string name="title_activity_consultas">Consultas</string>
+    <string name="title_activity_ficha_consulta">Ficha Consulta</string>
+    <string name="btnFacturasFichaConsulta">Factura...</string>
+    <string name="title_activity_nueva_mascota">Nueva Mascota</string>
+    <string name="txtTituloNuevaMascota">Introduce los datos de la nueva mascota</string>
+    <string name="txtLblNombreNuevaMascota">Nombre:</string>
+    <string name="txtLblTipoNuevaMascota">Tipo de animal:</string>
+    <string name="txtRaxaNuevaMascota">Raza:</string>
+    <string name="txtLblSexoNuevaMascota">Sexo:</string>
+    <string name="rdbSexoMascNuevaMascota">Masculino</string>
+    <string name="rdbSexoFemNuevaMascota">Femenino</string>
+    <string name="txtLblFechaNacNuevaMascota">Fecha de nacimiento:</string>
+    <string name="txtLblPropietarioNuevaMascota">Voluntario:</string>
+    <string name="btnNuevaPropNuevaMascota">Nuevo...</string>
+    <string name="btnPropExistenteNuevaMascota">Existente...</string>
+    <string name="txtFechaNacNuevaMascota">Fecha nacimiento:</string>
+    <string name="btnAceptarNuevaMascota">Aceptar</string>
+    <string name="btnCancelarDialogBorrarMascota">Cancelar</string>
+    <string name="title_activity_nuevo_propietario">Nuevo Voluntario</string>
+    <string name="txtLblNombreNuevoProp">Nombre:</string>
+    <string name="txtApellido1NuevoProp">1er apellido:</string>
+    <string name="txtApellid2NuevoProp">2o apellido:</string>
+    <string name="txtDniNuevoProp">DNI:</string>
+    <string name="txtTelefonoNuevoProp">Teléfono:</string>
+    <string name="txtEmailNuevoProp">Email:</string>
+    <string name="txtDireccionNuevoProp">Dirección:</string>
+    <string name="txtTituloNuevoProp">Introduce los datos del nuevo voluntario</string>
+    <string name="btnAceptarNuevoProp">Aceptar</string>
+    <string name="title_activity_editar_mascota">Editar Mascota</string>
+    <string name="txtTituloEditarMascota">Modifica los datos de la mascota</string>
+    <string name="title_activity_editar_propietario">Editar vcluntario</string>
+    <string name="subtitle_mascotas">Administración de mascotas</string>
+    <string name="subtitle_propietarios">Administración de voluntario</string>
+    <string name="pie_principal_mascotas">Desliza para voluntarios &lt;&lt;</string>
+    <string name="pie_principal_propietarios">&gt;&gt; Desliza para mascotas</string>
+    <string name="pulsar_comenzar">Pulsa para comenzar</string>
+    <string name="txtTipoFichaMascota">Animal:</string>
+    <string name="txtLblRazaFichaMascota">Raza:</string>
+    <string name="txtLblSexoFichaMascota">Sexo:</string>
+    <string name="txtLblFechaFichaMascota">Fecha:</string>
+    <string name="txtLblPropietario">Voluntario:</string>
+    <string name="txtLblEmailFichaProp">Email:</string>
+    <string name="txtLblMascotasPropietario">Listado de mascotas:</string>
+    <string name="txtLblFechaFichaConsulta">Consulta del día:</string>
+    <string name="txtLblTipoFichaConsulta">Tipo de la consulta:</string>
+    <string name="txtLblPatologiaFichaConsulta">Patología:</string>
+    <string name="txtLblTratamientoFichaConsulta">Tratamiento:</string>
+    <string name="title_activity_nueva_consulta">Nueva Consulta</string>
+    <string name="txtTituloNuevaConsulta">Introduce los datos de la nueva consulta</string>
+    <string name="txtFechaNuevaConsulta">Fecha:</string>
+    <string name="txtTipoConsultaNuevaConsulta">Tipo:</string>
+    <string name="txtPatologiaNuevaConsulta">Patología:</string>
+    <string name="txtDiagnosticoNuevaConsulta">Tratamiento:</string>
+    <string name="txtObservacionesNuevaConsulta">Observaciones:</string>
+    <string name="title_activity_editar_consulta">Editar Consulta</string>
+    <string name="drawer_open">Menu abierto</string>
+    <string name="drawer_close">Menu cerrado</string>
+    <string-array name="drawer_array">
+        <item>Mascotas</item>
+        <item>Nueva Mascota</item>
+        <item>Voluntarios</item>
+        <item>Nuevo Voluntario</item>
+        <item>Ayuda On/Off</item>
+    </string-array>
+	<string name="alert_image_content_description">Alert Image</string>
+	<string name="txtAyuda3">>>Desliza para navegación</string>
+</resources>
